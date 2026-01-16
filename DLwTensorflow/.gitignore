@@ -81,3 +81,7 @@ Thumbs.db
 
 # Keep directory structure with .gitkeep
 !.gitkeep
+
+# Allow images in imgs/ directory (documentation images)
+!imgs/
+!imgs/*.png

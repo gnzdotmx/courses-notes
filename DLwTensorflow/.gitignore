@@ -1,0 +1,83 @@
+# Model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+*.savedmodel
+*.weights
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+# Data files (uncomment if you want to ignore these)
+# *.csv
+# *.parquet
+# *.json
+# *.npy
+# *.npz
+
+# Checkpoints and logs
+checkpoints/
+logs/
+runs/
+tensorboard_logs/
+wandb/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+_DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Keep directory structure with .gitkeep
+!.gitkeep

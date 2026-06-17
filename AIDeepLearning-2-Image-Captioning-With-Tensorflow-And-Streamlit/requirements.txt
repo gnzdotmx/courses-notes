@@ -1,0 +1,13 @@
+# TensorFlow supports Python 3.9–3.12 on macOS arm64 (not 3.13+ yet).
+# On Mac mini: use `python3.12 -m venv .venv` (see README).
+# Cap <2.20: tensorflow-metal 1.2.0 does not load with TF 2.20 (import fails).
+tensorflow>=2.16,<2.20; python_version >= "3.9" and python_version < "3.13"
+streamlit>=1.28
+kagglehub>=0.2
+numpy
+Pillow
+nltk
+opencv-python-headless
+
+# Optional on Apple Silicon (M1–M4) for GPU — after CPU import works:
+#   pip install "tensorflow==2.19.1" "tensorflow-metal==1.2.0"

@@ -1,0 +1,6 @@
+# Lab deps: QR generation + GAN training / inference
+qrcode[pil]>=7.4
+tensorflow>=2.12
+numpy>=1.23
+Pillow>=9.0
+matplotlib>=3.7

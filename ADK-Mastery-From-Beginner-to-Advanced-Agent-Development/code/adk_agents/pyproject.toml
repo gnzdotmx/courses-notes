@@ -1,0 +1,12 @@
+[project]
+name = "adk-agents"
+version = "0.1.0"
+description = "ADK agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=2.11.0",
+    "greenlet>=3.5.6",
+    "litellm>1.84",
+    "sqlalchemy>=2.1.4",
+]
